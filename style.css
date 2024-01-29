@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+
+background:black;
+font-family:'poppins', sans-serif;
+
+}
+
+header video{
+    width: 100%;
+    height: auto;
+    display: block;
+    background: cover;
+}
+
+.logo a{
+    color: white;
+    padding: 0px 10px;
+    border: 1px solid white;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: rgb(0, 0, 0.7);
+
+}
+ul{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 350px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid white transparent ;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+   
+    
+    
+}
+
+
+
+ul li a:hover{
+    background: white;
+    color: black;
+}
+
+ul li.active a{
+    background: white;
+    color: black;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+
+.titre h1{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.bouton{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bouton a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.btn{
+    transition: 00.6s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* section titre Accueil */
+
+#Accueil{
+    height: 100vh;
+    margin: 0 10%;
+}
+
+.Accueil1{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    font-size: 25px;
+}
+
+.Accueil2{
+    
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+
+.class1{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.class1 .class2 {
+    width: 60%;
+    color: white;    
+    }
+
+    .class1 .class2 h2{
+   text-align: center;
+   margin: 50px 0;
+   color:white;
+    }
+
+    .propos{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;   
+    }
+
+    .propos1 {
+        width: 31%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         padding: 25px 0;
+         box-shadow: 0 0 26px rgba(0, 0, 0, 0.1);
+         border-radius: 20px;
+         height: 100%;
+         transition: 0,5s;
+         cursor: pointer;
+    }
+
+    .propos1 i{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 26px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    .propos1 p{
+        margin-top: 25px;
+        color: white;
+    }
+      
+    .propos1:hover{
+        background-color: white;
+    }
+
+    .propos1:hover i{
+        background-color: white;
+        transition: 0,5s;
+
+    }
+
+    .propos1:hover p{
+        color:violet;
+    }
+
+    .class1 img{
+        width: 28%;
+        border-radius: 20px;
+
+    }
+
+
+    #gallerie{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .photo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        margin-top: 50px;
+        padding: 0 22.5%;
+    }
+
+    .photo .photos img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0,5s;
+    }
+
+    .photo .photos {
+       width: 49%;
+       border-radius: 10px;
+       position: relative;
+       margin-bottom: 1%;
+       overflow: hidden;
+    }
+
+    .photo .photos:hover img {
+      transform: scale(1.2);
+    }
+
+    .sortie{
+            text-align: center;
+            margin-top: 50px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 25px;
+    }
+
+    .films{
+        text-align: center;
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color:white;
+        font-size: 25px;
+    }
+
+    #contact {
+        height: 100vh;
+        margin: 0 10%;
+        width: 80%;
+       
+    }
+   
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(bg3\ \(1\).png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .carte{
+        width: 90%;
+        max-width: 440px;
+        color: aliceblue;
+        text-align: center;
+        padding: 50px 35px;
+        border: 1px solid rgb(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+    }
+
+
+    .carte img{
+        width: 140px;
+        border-radius: 50%;
+    }
+    .carte h2{
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+
+    .carte p{
+        font-size: 18px;
+        margin: 10px auto;
+        max-width: 330px;
+    }
+    .carte .reseau img{
+        width: 40px;
+        border-radius: 50%;
+        margin: 10px 5px;
+        transition: background 0.5s;
+    }
+    .carte .reseau img:hover{
+        background:violet;
+    }
+       
+    .bouton{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(209, 63, 197);
+        padding: 10px 30px;
+        border-radius: 30px;
+        margin: 30px 0 10px;
+        margin-top: 120px;
+    }
+
+
+    @media (max-width: 600px) {
+        body {
+          font-size: 14px;
+        }
+      }
+      
+      /* CSS pour les écrans entre 601 et 900 pixels de large */
+      @media (min-width: 601px) and (max-width: 900px) {
+        body {
+          font-size: 16px;
+        }
+      }
+      
+      /* CSS pour les écrans de plus de 901 pixels de large */
+      @media (min-width: 901px) {
+        body {
+          font-size: 18px;
+        }
+    }
+      
+    /* Styles pour les écrans par défaut */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+
